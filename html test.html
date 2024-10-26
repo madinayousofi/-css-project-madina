@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+#div1{
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;;
+}
+#div2{
+    width: 100%;
+    height: 600px;
+    background-image: url(IMG_20240826_193533_757.jpg);
+    background-size: cover;
+
+}
+
+#div3{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0.021);
+    float: left;
+    margin-left: 120px;;
+}
+#div4{
+       width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 255, 0);
+    float: right;
+    margin-right: 70px;;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#input1{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;;;
+}
+#input2{
+    width: 200px;
+    height: 25px;; ;
+}
+#input3{
+    width: 150px;
+    height: 30px;
+    background-color: tomato;
+    border: none;;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#input4{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;;;
+}
+#password{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;;;
+}
+#first{
+    width: 170px;
+    height: 20px;
+    ;;
+}
+#second{
+    width: 170px;
+    height: 20px;
+}
+#select{
+    width: 170px;
+    height: 30px;;;
+}
+#b1{
+    width: 170px;
+    height: 30px;;;
+    background-color: tomato;
+    border: none;
+}
+</style>
+<body>
+    <main>
+    <div id="div1">  </div>
+    <div id="div2"><br><br>
+<DIV id="div3">
+    <br><br><br><br>
+<h1 id="heading">welcome to my tweet</h1>
+<p id="info">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,<br> iure perferendis ea doloribus explicabobr assumenda eligendi cupiditate voluptatem provident debitis itaque quae nisi eos labore deserunt illum veniam nam?
+  nulla ipsa quis nihil delectus maiores hic eos, ab similique cum.
+</p>
+</DIV>
+<div id="div4">
+<h2>sign in </h2>
+<form action="#" method="get">
+<label for="name"></label>
+<input id="input1" type="text" autofocus placeholder="user name"        ><br><br>
+<input id="input2" type="password" placeholder="password"  >
+<input id="input3" type="submit" value="sing in">
+<br>
+</form>
+<form  method="post">
+<h3>sign up</h3>
+<input id="input4" type="text"  placeholder=" name" autofocus    ><br><br>
+<input id="password" type="password"       placeholder="password" ><br><br>
+<input id="first" type="text" required placeholder="first name">
+<input  id="second" type="text" placeholder="last name"><br><br>
+<select id="select" id="cars" name="cars">
+        <option value="male">male</option>
+        <option value="famel">famel</option>
+        <option value="other">other</option>
+        <!-- <option value="audi">man</option> -->
+      </select>
+      <input id="b1" type="button" value="sign up" id="signbtn" onclick="signin ()">
+
+<script>
+
+function signin(){
+let input4= document.getelementbyid('username').value;
+let password= document.getelementbyid('userpass').value;
+document.getelementById('heading') .innerHTML='you loged in';
+document.getelementById('info').innerHTML='user name'+ userName;
+}
+ 
+
+</script>
+
+
+
+
+
+</form>
+</div>
+<br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p style="text-align: center;">All right the humuns are on the picture</p>
+    </div>
+
+    <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>
+  <p>All right the humuns are on the picture</p>
+</body></main>
+</html>
